@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+zad 1. Komponent 'popularnych kategorii' na bazie grafik (1.PNG & 2.PNG)
 
-## Getting Started
+Istotne elementy:
 
-First, run the development server:
+- podział i architektura komponentów
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- struktura html
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- stylowanie rwd
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- jakość i estetyka kodu
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- użyty font nie ma znaczenia
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- ikony/obrazki nie mają znaczenia
 
-## Learn More
+- zakresy rwd: 1312 / 1200 / 1024 / 768 / 480
 
-To learn more about Next.js, take a look at the following resources:
+- react + scss lub react/nextjs + cssmodules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Załączniki:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1.PNG - UI dla 1312px
 
-## Deploy on Vercel
+2.PNG - UI dla 768px
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+zad 2. Komponent bloczka produktowego.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Rozpisz na jakie komponenty podzieliłbyś komponent bloczka produktowego. W zadaniu trzeba wypisać części składowe komponentu z propsami (sama architektura w kodzie - nie musi działać) np. image, title itd.
+
+return (
+
+                <ComponentA prop1={ a } props2={ b } />
+
+                <ComponentB prop1={ a } props2={ b } />
+
+                <ComponentC prop1={ a } props2={ b } />
+
+)
+
+Załączniki:
+
+3.PNG - poglądowy UI bloczka produktowego
+
+zad 3. Komponent modal`a/popup`a.
+
+- Napisz prosty komponent modal`a/popup`a
