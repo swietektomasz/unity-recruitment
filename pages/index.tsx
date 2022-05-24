@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { PopularCategories } from "../components";
+import { PopularCategories, ProductModal } from "../components";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -11,6 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <PopularCategories />
+      <ProductModal />
     </div>
   );
 };

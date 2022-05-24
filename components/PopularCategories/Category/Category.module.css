@@ -1,7 +1,7 @@
 .category {
   display: flex;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border: 1px solid lightgray;
   justify-content: center;
   align-items: center;

@@ -15,20 +15,16 @@
   position: relative;
 }
 
-.category {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  border: 1px solid lightgray;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-weight: 600;
+@media (min-width: 480px) {
+  .categoryContainer {
+    max-width: 420px;
+  }
 }
 
-.categoryIcon {
-  margin-bottom: 20px;
-  position: relative;
-  height: 50%;
-  width: 50%;
+@media (min-width: 1312px) {
+  .categoryContainer {
+    max-width: max-content;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
